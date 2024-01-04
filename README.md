@@ -4,7 +4,7 @@
 
 This dataset includes content that may contain hate speech, offensive language, or other forms of inappropriate and objectionable material. The content present in the dataset is not created or endorsed by the authors or contributors of this project. It is collected from various sources and does not necessarily reflect the views or opinions of the project maintainers.
 
-The purpose of using this dataset is for research, analysis, or educational purposes only. The authors do not endorse or promote any harmful, discriminatory, or offensive behavior conveyed in the dataset.
+The purpose of using this dataset is for research, analysis, or educational purposes only. The authors do not endorse or promote any harmful, discriminatory, or offensive behaviour conveyed in the dataset.
 
 Users are advised to exercise caution and sensitivity when interacting with or interpreting the dataset. If you choose to use the dataset, it is recommended to handle the content responsibly and in compliance with ethical guidelines and applicable laws.
 
@@ -26,9 +26,11 @@ Soon.
 
 Each directory in this repository contains Jupyter Notebooks with detailed explanations and instructions on how to use the associated code. Below is a brief overview of the contents of each directory:
 
-- **`/analysis/`**: Contains the lexical and psycolinguistic analysis done
+- **`/analysis/`**: Contains the lexical and psycholinguistic analysis done
 - **`/baselines/`**: Contains the different baselines run
-- **`/data/`**: Contains the MetaHate dataset (only the sample is publicly available)
+- **`/data/`**: Contains the MetaHate dataset (only the sample is publicly available).
+   - [Sample](https://huggingface.co/datasets/irlab-udc/metahate-sample)
+   - [Full](https://huggingface.co/datasets/irlab-udc/metahate-sample)
 - **`DATASHEET.md`**: Datasheet describing the dataset
 - **`LICENSE`**: License for the usage of the dataset and code
 
@@ -66,7 +68,7 @@ The authors thank the funding from the Horizon Europe research and innovation pr
 We welcome contributions from the community to improve and enhance this project. If you have questions, feedback, or suggestions, please consider opening an issue on GitHub. Follow the steps below to contribute:
 
 1. **Open an Issue:**
-   - If you have a question, suggestion, or encounter any issues, open a new GitHub issue.
+   - If you have a question, or suggestion, or encounter any issues, open a new GitHub issue.
    - Clearly describe the nature of the issue or your suggestion.
    - Provide any relevant context, such as code snippets, error messages, or screenshots.
 
@@ -75,8 +77,8 @@ We welcome contributions from the community to improve and enhance this project.
    - Feel free to participate in the discussion on the issue thread.
 
 3. **Collaborate and Contribute:**
-   - If you're interested in contributing code, bug fixes, or new features, please check for open issues labeled as "help wanted" or "good first issue."
-   - Discuss your intention to contribute in the related GitHub issue.
+   - If you're interested in contributing code, bug fixes, or new features, please check for open issues labelled as "help wanted" or "good first issue."
+   - Discuss your intention to contribute to the related GitHub issue.
    - Fork the repository, make your changes, and submit a pull request.
 
 By contributing to this project, you agree to abide by the [Code of Conduct](CODE_OF_CONDUCT.md). Thank you for helping make this project better!
