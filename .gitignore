@@ -159,7 +159,11 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 
+# Mac
+.DS_Store
+data/.DS_Store
+
 # Remove full dataset
 /data/metahate.csv
-/data/available_metahate.csv
->>>>>>> 1088926 (init commit)
+/data/available_metahate.tsv
+/data/metahate.tsv
