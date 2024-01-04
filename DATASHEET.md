@@ -20,7 +20,7 @@ We collected different hate speech datasets to created **MetaHate**; what follow
 
 - **For what purpose was the dataset created?** *(Was there a specific task in mind? Was there a specific gap that needed to be filled? Please provide a description.)*
     
-    The dataset was created to enable research on detecting English hate speech content on social media using machine learning and large language models. In the recent years, there have been some new creations of hate speech datasets, but none of them large enough. This dataset (meta-collection) aims to serve as a unification of all the available hate speech datasets from social media comments written by humans.
+    The dataset was created to enable research on detecting English hate speech content on social media using machine learning and large language models. In recent years, there have been some new creations of hate speech datasets, but none of them are large enough. This dataset (meta-collection) aims to serve as a unification of all the available hate speech datasets from social media comments written by humans.
 
 
 - **Who created this dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?**
@@ -30,7 +30,7 @@ We collected different hate speech datasets to created **MetaHate**; what follow
 
 - **Who funded the creation of the dataset?** *(If there is an associated grant, please provide the name of the grantor and the grant name and number.)*
     
-  The authors thank the funding from the Horizon Europe research and innovation programme under the Marie Skłodowska-Curie Grant Agreement No. 101073351. The authors also thank the financial support supplied by the Consellería de Cultura, Educación, Formación Profesional e Universidades (accreditation 2019-2022 ED431G/01, ED431B 2022/33) and the European Regional Development Fund, which acknowledges the CITIC Research Center in ICT of the University of A Coruña as a Research Center of the Galician University System and the project PID2022-137061OB-C21 (Ministerio de Ciencia e Innovación, Agencia Estatal de Investigación, Proyectos de Generación de Conocimiento; suppported by the European Regional Development Fund). The authors also thank the funding of project PLEC2021-007662 (MCIN/AEI/10.13039/501100011033, Ministerio de Ciencia e Innovación, Agencia Estatal de Investigación, Plan de Recuperación, Transformación y Resiliencia, Unión Europea-Next Generation EU).
+  The authors thank the funding from the Horizon Europe research and innovation programme under the Marie Skłodowska-Curie Grant Agreement No. 101073351. The authors also thank the financial support supplied by the Consellería de Cultura, Educación, Formación Profesional e Universidades (accreditation 2019-2022 ED431G/01, ED431B 2022/33) and the European Regional Development Fund, which acknowledges the CITIC Research Center in ICT of the University of A Coruña as a Research Center of the Galician University System and the project PID2022-137061OB-C21 (Ministerio de Ciencia e Innovación, Agencia Estatal de Investigación, Proyectos de Generación de Conocimiento; supported by the European Regional Development Fund). The authors also thank the funding of project PLEC2021-007662 (MCIN/AEI/10.13039/501100011033, Ministerio de Ciencia e Innovación, Agencia Estatal de Investigación, Plan de Recuperación, Transformación y Resiliencia, Unión Europea-Next Generation EU).
 
 
 - **Any other comments?**
@@ -45,7 +45,7 @@ We collected different hate speech datasets to created **MetaHate**; what follow
 
 - **What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)?** *(Are there multiple types of instances (e.g., movies, users, and ratings; people and interactions between them; nodes and edges)? Please provide a description.)*
     
-  The instances are social media comments in English from different social networks such as Twitter, Facebook, Reddit and online forums. Each post has associated a label: 0 for indicating a post that does not contain hate speech, 1 otherwise.
+  The instances are social media comments in English from different social networks such as Twitter, Facebook, Reddit and online forums. Each post has an associated label: 0 for indicating a post that does not contain hate speech, 1 otherwise.
 
 
 - **How many instances are there in total (of each type, if appropriate)?**
@@ -53,14 +53,14 @@ We collected different hate speech datasets to created **MetaHate**; what follow
   There are 1,226,202 unique instances in the original MetaHate collection.
 
 
-- **Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set?** *(If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (e.g., geographic coverage)? If so, please describe how this representativeness was validated/verified. If it is not representative of the larger set, please describe why not (e.g., to cover a more diverse range of instances, because instances were withheld or unavailable).)*
+- **Does the dataset contains all possible instances or is it a sample (not necessarily random) of instances from a larger set?** *(If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (e.g., geographic coverage)? If so, please describe how this representativeness was validated/verified. If it is not representative of the larger set, please describe why not (e.g., to cover a more diverse range of instances, because instances were withheld or unavailable).)*
     
-  The dataset contain all possible instances. It was created picking all the available datasets that fit our needs. For more information see "Data Acquisition and Preparation" section in the publication.
+  The dataset contain all possible instances. It was created by picking all the available datasets that fit our needs. For more information see the "Data Acquisition and Preparation" section in the publication.
 
 
 - **What data does each instance consist of?** *(``Raw'' data (e.g., unprocessed text or images)or features? In either case, please provide a description.)*
     
-  Each instance consists of the social media text, raw, as it was processed in its original publication. In some of the original works, usernames were replaced with the word "user", and some further simple preprocessing was carried. Each instance also has an associated label: 0 for non-hate speech posts, 1 for hate speech comments.
+  Each instance consists of the social media text, raw, as it was processed in its original publication. In some of the original works, usernames were replaced with the word "user", and some further simple preprocessing was carried out. Each instance also has an associated label: 0 for non-hate speech posts, and 1 for hate speech comments.
 
 
 - **Is there a label or target associated with each instance? If so, please provide a description.**
@@ -75,23 +75,23 @@ We collected different hate speech datasets to created **MetaHate**; what follow
 
 - **Are relationships between individual instances made explicit (e.g., users' movie ratings, social network links)?** *( If so, please describe how these relationships are made explicit.)*
     
-  No, each instance is isolated from the others and no relationships exists and if so, it was not made explicit.
+  No, each instance is isolated from the others and no relationships exist and if so, it was not made explicit.
 
 
 - **Are there recommended data splits (e.g., training, development/validation, testing)?** *(If so, please provide a description of these splits, explaining the rationale behind them.)*
     
-  In our experiments we dedicated a random 20% of the data for testing. We recommend a similar split for future trainings.
+  In our experiments, we dedicated a random 20% of the data for testing. We recommend a similar split for future training.
 
 
 - **Are there any errors, sources of noise, or redundancies in the dataset?** *(If so, please provide a description.)*
     
-  Potential errors in the annotation process might be carried from each original dataset authors.
+  Potential errors in the annotation process might be carried from each original dataset author.
 
 
 - **Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g., websites, tweets, other datasets)?** *(If it links to or relies on external resources, a) are there guarantees that they will exist, and remain constant, over time; b) are there official archival versions of the complete dataset (i.e., including the external resources as they existed at the time the dataset was created); c) are there any restrictions (e.g., licenses, fees) associated with any of the external resources that might apply to a future user? Please provide descriptions of all external resources and any restrictions associated with them, as well as links or other access points, as appropriate.)*
     
-  TODO
-- 
+  The dataset is self-contained. It was created using external resources, but are all included in MetaHate. For some instances the original dataset's terms and conditions are needed, otherwise it cannot be provided.
+
 
 - **Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by doctor-patient confidentiality, data that includes the content of individuals' non-public communications)?** *(If so, please provide a description.)*
     
@@ -100,12 +100,12 @@ We collected different hate speech datasets to created **MetaHate**; what follow
 
 - **Does the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?** *(If so, please describe why.)*
     
-  Yes, because it is a hate speech dataset, so 20.64% of the data contains explicit hate speech language or data that might cause harm.
+  Yes, because it is a hate speech dataset, so 20.64% of the data contains explicit hate speech-language or data that might cause harm.
 
 
 - **Does the dataset relate to people?** *(If not, you may skip the remaining questions in this section.)*
     
-  Yes, all the data relates to people, as it is social media posts writen by users.  
+  Yes, all the data relates to people, as it is social media posts written by users.  
 
 - **Does the dataset identify any subpopulations (e.g., by age, gender)?** *(If so, please describe how these subpopulations are identified and provide a description of their respective distributions within the dataset.)*
     
@@ -134,12 +134,12 @@ We collected different hate speech datasets to created **MetaHate**; what follow
 
 - **How was the data associated with each instance acquired?** *(Was the data directly observable (e.g., raw text, movie ratings), reported by subjects (e.g., survey responses), or indirectly inferred/derived from other data (e.g., part-of-speech tags, model-based guesses for age or language)? If data was reported by subjects or indirectly inferred/derived from other data, was the data validated/verified? If so, please describe how.)*
     
-  The data was collected from different studies. Some datasets were publicly available on Internet and some others were obtained via email by contacting the authors.
+  The data was collected from different studies. Some datasets were publicly available on the Internet and some others were obtained via email by contacting the authors.
 
 
 - **What mechanisms or procedures were used to collect the data (e.g., hardware apparatus or sensor, manual human curation, software program, software API)?** *(How were these mechanisms or procedures validated?)*
 
-  Each individual dataset used in this meta collection used a different mechanism for construction. See each original individual publication for details. 
+  Each individual dataset used in this meta-collection used a different mechanism for construction. See each original individual publication for details. 
 
 
 - **If the dataset is a sample from a larger set, what was the sampling strategy (e.g., deterministic, probabilistic with specific sampling probabilities)?**
@@ -154,12 +154,12 @@ We collected different hate speech datasets to created **MetaHate**; what follow
 
 - **Over what timeframe was the data collected?** *(Does this timeframe match the creation timeframe of the data associated with the instances (e.g., recent crawl of old news articles)?  If not, please describe the timeframe in which the data associated with the instances was created.)*
    
-   The datasets that shape MetaHate were collected between September 2023 and December 2023. See each original individual publications for details regarding each dataset creation timeframe.
+   The datasets that shape MetaHate were collected between September 2023 and December 2023. See each original individual publication for details regarding each dataset creation timeframe.
 
 
 - **Were any ethical review processes conducted (e.g., by an institutional review board)?** *(If so, please provide a description of these review processes, including the outcomes, as well as a link or other access point to any supporting documentation.)*
     
-  TODO    
+  No.    
 
 
 - **Does the dataset relate to people?** *(If not, you may skip the remaining questions in this section.)*
@@ -174,7 +174,7 @@ We collected different hate speech datasets to created **MetaHate**; what follow
 
 - **Were the individuals in question notified about the data collection?** *(If so, please describe (or show with screenshots or other information) how notice was provided, and provide a link or other access point to, or otherwise reproduce, the exact language of the notification itself.)*
     
-  No. The data was obtained from publicly available datasets or requested directle from the authors. We have no knowledge if the authors' of the used datasets notified the individuals.
+  No. The data was obtained from publicly available datasets or requested directly from the authors. We have no knowledge if the authors' of the used datasets notified the individuals.
 
 - **Did the individuals in question consent to the collection and use of their data?** *(If so, please describe (or show with screenshots or other information) how consent was requested and provided, and provide a link or other access point to, or otherwise reproduce, the exact language to which the individuals consented.)*
     
@@ -237,7 +237,7 @@ We collected different hate speech datasets to created **MetaHate**; what follow
 
 - **What (other) tasks could the dataset be used for?**
 
-  The dataset could be used for anything related to modeling or understanding hate speech on social media.
+  The dataset could be used for anything related to modelling or understanding hate speech on social media.
 
 
 - **Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses?** *(For example, is there anything that a future user might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other undesirable harms (e.g., financial harms, legal risks)  If so, please provide a description. Is there anything a future user could do to mitigate these undesirable harms?)*
@@ -277,7 +277,7 @@ We collected different hate speech datasets to created **MetaHate**; what follow
 
 - **Will the dataset be distributed under a copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?** *(If so, please describe this license and/or ToU, and provide a link or other access point to, or otherwise reproduce, any relevant licensing terms or ToU, as well as any fees associated with these restrictions.)*
     
-  Yes, the dataset will be distributed under a Apache License 2.0 license.
+  Yes, the dataset will be distributed under an Apache License 2.0 license.
 
 
 - **Have any third parties imposed IP-based or other restrictions on the data associated with the instances?** *(If so, please describe these restrictions, and provide a link or other access point to, or otherwise reproduce, any relevant licensing terms, as well as any fees associated with these restrictions.)*
@@ -287,7 +287,7 @@ We collected different hate speech datasets to created **MetaHate**; what follow
 
 - **Do any export controls or other regulatory restrictions apply to the dataset or to individual instances?** *(If so, please describe these restrictions, and provide a link or other access point to, or otherwise reproduce, any supporting documentation.)*
   
-  Yes, some instances of the datasets needs, apart from our terms and conditions, the original terms and conditions of the original dataset.     
+  Yes, some instances of the dataset need, apart from our terms and conditions, the original terms and conditions of the original dataset.     
 
 
 - **Any other comments?**
