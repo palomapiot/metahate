@@ -12,7 +12,7 @@ The project maintainers disclaim any responsibility for the content within the d
 
 ## Overview
 
-Soon.
+Details of MetaHate and how to get the data are explained here: https://irlab.org/metahate.html
 
 ## Table of Contents
 
@@ -30,7 +30,7 @@ Each directory in this repository contains Jupyter Notebooks with detailed expla
 - **`/baselines/`**: Contains the different baselines run
 - **`/data/`**: Contains the MetaHate dataset (only the sample is publicly available).
    - [Sample](https://huggingface.co/datasets/irlab-udc/metahate-sample)
-   - [Full](https://huggingface.co/datasets/irlab-udc/metahate-sample)
+   - [Full](https://huggingface.co/datasets/irlab-udc/metahate)
 - **`DATASHEET.md`**: Datasheet describing the dataset
 - **`LICENSE`**: License for the usage of the dataset and code
 
