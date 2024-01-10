@@ -57,6 +57,13 @@ The Apache License 2.0 is an open-source license that allows you to use the soft
 
 For more details, please refer to the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
+## Resources
+
+Experiments were conducted using a private infrastructure, which has a carbon efficiency of 0.432 kg CO2 eq / kWh. A cumulative of 98 hours of computation was performed on hardware of type RTX A6000 (TDP of 300W).
+
+Total emissions are estimated to be 12.7 kg CO2 eq of which 0 percents were directly offset.
+
+Estimations were conducted using the [MachineLearning Impact calculator](https://mlco2.github.io/impact#compute) presented in [Lacoste et al. 2019](https://arxiv.org/abs/1910.09700).
 
 ## Acknowledgements
 
