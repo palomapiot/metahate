@@ -1,5 +1,22 @@
 # MetaHate: A Dataset for Unifying Efforts on Hate Speech Detection
 
+This work was accepted at the 18th International AAAI Conference on Web and Social Media (ICWSM 2024).
+
+## Citation
+
+If you use this dataset or any part of the code included in this repository, please cite the following reference:
+
+```bibtex
+@misc{piot2024metahate,
+      title={MetaHate: A Dataset for Unifying Efforts on Hate Speech Detection}, 
+      author={Paloma Piot and Patricia Martín-Rodilla and Javier Parapar},
+      year={2024},
+      eprint={2401.06526},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
 ## Disclaimer
 
 This dataset includes content that may contain hate speech, offensive language, or other forms of inappropriate and objectionable material. The content present in the dataset is not created or endorsed by the authors or contributors of this project. It is collected from various sources and does not necessarily reflect the views or opinions of the project maintainers.
