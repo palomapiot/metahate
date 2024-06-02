@@ -12,7 +12,6 @@ If you use this dataset or any part of the code included in this repository, ple
   volume={18},
   url={https://ojs.aaai.org/index.php/ICWSM/article/view/31445},
   DOI={10.1609/icwsm.v18i1.31445},
-  abstractNote={Hate speech represents a pervasive and detrimental form of online discourse, often manifested through an array of slurs, from hateful tweets to defamatory posts. As such speech proliferates, it connects people globally and poses significant social, psychological, and occasionally physical threats to targeted individuals and communities. Current computational linguistic approaches for tackling this phenomenon rely on labelled social media datasets for training. For unifying efforts, our study advances in the critical need for a comprehensive meta-collection, advocating for an extensive dataset to help counteract this problem effectively. We scrutinized over 60 datasets, selectively integrating those pertinent into MetaHate. This paper offers a detailed examination of existing collections, highlighting their strengths and limitations. Our findings contribute to a deeper understanding of the existing datasets, paving the way for training more robust and adaptable models. These enhanced models are essential for effectively combating the dynamic and complex nature of hate speech in the digital realm.},
   number={1},
   journal={Proceedings of the International AAAI Conference on Web and Social Media},
   author={Piot, Paloma and Martín-Rodilla, Patricia and Parapar, Javier},
