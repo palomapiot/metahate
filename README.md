@@ -1,6 +1,6 @@
 # MetaHate: A Dataset for Unifying Efforts on Hate Speech Detection
 
-This work was accepted at the 18th International AAAI Conference on Web and Social Media (ICWSM 2024).
+This work was accepted at the 18th International AAAI Conference on Web and Social Media (ICWSM 2024). The paper is available [here](https://ojs.aaai.org/index.php/ICWSM/article/view/31445).
 
 ## Citation
 
